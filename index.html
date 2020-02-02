@@ -14,7 +14,7 @@
 	 <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">   
         <a-assets>		   		   
 		   <!-- 01 Video Ebre 53 anys -->
-		   <!-- <video id="pEbre"  crossOrigin="anonymous" playsinline webkitplaysinline autoplay controls muted  src="video/deltaEbre_53Blender.mp4"></video> -->
+		   <video id="pEbre"  crossOrigin="anonymous" playsinline webkitplaysinline autoplay controls muted  src="video/deltaEbre_53Blender.mp4"></video> 
            <!--02 3D model decaiment-->
            <a-asset-item id="sentinelDeca-obj" src="models/sentinelDeca.obj"></a-asset-item>
            <a-asset-item id="sentinelDeca-mtl" src="models/sentinelDeca.mtl"></a-asset-item>
@@ -36,7 +36,7 @@
 				
 		<!-- 01 Video Ebre 53 anys -->
 		<a-marker type="pattern" preset="custom" url="data/pattern-mDEbre.patt">
-			<video id="pEbre"  crossOrigin="anonymous" playsinline webkitplaysinline autoplay controls muted  src="video/deltaEbre_53Blender.mp4"></video>
+			
 			<a-video src="#pEbre" position="0 0 0" rotation="270 0 0" ></a-video>
   		  <!-- <a-entity geometry="primitive: plane" scale="6 4 1" position="0 0 0" rotation="-90 0 0" material="src: #pEbre"></a-entity> -->
 			<script> 
